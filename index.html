@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+		<title>Calculator</title>
+		<meta name="description" content="A simple calculator."/>
+		<meta name="author" content="Kacper Pastuszka" /> 
+		
+		<meta property="og:title" content="Calculator">
+		<meta property="og:type" content="website"/>
+		<meta property="og:description" content="A simple calculator."/>
+		
+		<link rel="icon" href="icon.png">
+		<link rel="stylesheet" href="stylesheet.css"/>
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<table >
+				<tr>
+					<td colspan="4" class="display" id="display">
+						Hello!
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button class="button2" onclick="ac()">AC</button>
+					</td>
+					<td>
+						<button class="button2" onclick="backspace()"> ← </button>
+					</td>
+					<td>
+						<button class="button2" onclick="equals()">=</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="one()">1</button>
+					</td>
+					<td>
+						<button onclick="two()">2</button>
+					</td>
+					<td>
+						<button onclick="three()">3</button>
+					</td>
+					<td>
+						<button class="button2" onclick="divide()">÷</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="four()">4</button>
+					</td>
+					<td>
+						<button onclick="five()">5</button>
+					</td>
+					<td>
+						<button onclick="six()">6</button>
+					</td>
+					<td>
+						<button class="button2" onclick="multiply()">x</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="seven()">7</button>
+					</td>
+					<td>
+						<button onclick="eight()">8</button>
+					</td>
+					<td>
+						<button onclick="nine()">9</button>
+					</td>
+					<td>
+						<button class="button2" onclick="substract()">-</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<button onclick="zero()">0</button>
+					</td>
+					<td>
+						<button onclick="dot()">.</button>
+					</td>
+					<td>
+						<button class="button2" onclick="add()">+</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
